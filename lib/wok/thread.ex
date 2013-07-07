@@ -4,5 +4,5 @@ defrecord Wok.Thread,
   omit:        "" :: char_list(),
   board:       "" :: char_list(),
   reply_count: "" :: char_list(),
-  posts:       {} :: tuple
+  posts:       {} :: tuple #TODO
 
