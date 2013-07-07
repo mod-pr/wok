@@ -1,0 +1,23 @@
+defrecord Wok.Post, 
+  width:     0 :: integer,
+  lasthit:   0 :: integer,
+  num:       0 :: integer,
+  banned:    0 :: integer,
+  size:      0 :: integer,
+  timestamp: 0 :: integer,
+  sticky:    0 :: integer,
+  tn_width:  0 :: integer,
+  tn_height: 0 :: integer,
+  closed:    0 :: integer,
+  parent:    0 :: integer,
+  height:    0 :: integer,
+  op:        0 :: integer,
+
+  thumbnail: "" :: char_list(),
+  video:     "" :: char_list(),
+  image:     "" :: char_list(),
+  comment:   "" :: char_list(),
+  subject:   "" :: char_list(),
+  name:      "" :: char_list(),
+  date:      "" :: char_list()
+
